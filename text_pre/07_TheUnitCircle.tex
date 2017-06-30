@@ -2,7 +2,7 @@
 
 \label{TheUnitCircle}
 
-In Section \ref{circularmotion}, we introduced circular motion and derived a formula which describes the linear velocity of an object moving on a circular path at a constant angular velocity.  One of the goals of this section is describe the \textit{position} of such an object.  To that end, consider an angle $\theta$ in standard position and let $P$ denote the point where the terminal side of $\theta$ intersects the Unit Circle, as in Figure \ref{fig:circle1}.  By associating the point $P$ with the angle $\theta$, we are assigning a \emph{position} on the Unit Circle to the angle $\theta$.  The $x$-coordinate of $P$ is called the \index{cosine ! of an angle} \sword{cosine} of $\theta$, written $\cos(\theta)$, while the $y$-coordinate of $P$ is called the \index{sine ! of an angle} \sword{sine} of $\theta$, written $\sin(\theta)$.  The reader is encouraged to verify that these rules used to match an angle with its cosine and sine do, in fact, satisfy the definition of a function.  That is, for each angle $\theta$, there is only one associated value of $\cos(\theta)$ and only one associated value of $\sin(\theta)$.  
+In this section, we consider the problem of describing the position of a point on the unit circle.  To that end, consider an angle $\theta$ in standard position and let $P$ denote the point where the terminal side of $\theta$ intersects the Unit Circle, as in Figure \ref{fig:circle1}.  By associating the point $P$ with the angle $\theta$, we are assigning a \emph{position} on the Unit Circle to the angle $\theta$.  The $x$-coordinate of $P$ is called the \index{cosine ! of an angle} \sword{cosine} of $\theta$, written $\cos(\theta)$, while the $y$-coordinate of $P$ is called the \index{sine ! of an angle} \sword{sine} of $\theta$, written $\sin(\theta)$.  The reader is encouraged to verify that these rules used to match an angle with its cosine and sine do, in fact, satisfy the definition of a function.  That is, for each angle $\theta$, there is only one associated value of $\cos(\theta)$ and only one associated value of $\sin(\theta)$.  
 
 \mfigure[width=0.95\marginparwidth]{.8}{Defining $\cos(\theta)$ and $\sin(\theta)$}{fig:circle1}{figures/IntroTrigGraphics/TheUnitCircle-2}
 \mnote{.6}{The etymology of the name `sine' is quite colourful, and the interested reader is invited to research it;  the `co' in `cosine' is explained in Section \ref{Identities}.}
@@ -13,11 +13,9 @@ In Section \ref{circularmotion}, we introduced circular motion and derived a for
 
 \example{cosinesineviaunitcircle}{Evaluating $\cos(\theta)$ and $\sin(\theta)$}{  Find the cosine and sine of the following angles.
 
-\begin{multicols}{3}
+\begin{multicols}{2}
 
 \begin{enumerate}
-
-\item  $\theta = 270^{\circ}$
 
 \item $\theta = - \pi$
 
@@ -32,10 +30,6 @@ In Section \ref{circularmotion}, we introduced circular motion and derived a for
 \end{multicols}}
 {
 \begin{enumerate}
-
-\item  To find $\cos\left(270^{\circ}\right)$ and $\sin\left(270^{\circ}\right)$, we plot the angle $\theta =270^{\circ}$ in standard position in Figure \ref{fig:circle2} and find the point on the terminal side of $\theta$ which lies on the Unit Circle.  Since $270^{\circ}$ represents $\frac{3}{4}$ of a counter-clockwise revolution, the terminal side of $\theta$ lies along the negative $y$-axis.  Hence, the point we seek is $(0,-1)$ so that  $\cos\left(270^{\circ}\right) = 0$ and $\sin\left(270^{\circ}\right) = -1$.
-
-\mfigure[width=0.85\marginparwidth]{.42}{Finding $\cos(270^\circ)$ and $\sin(270^\circ)$}{fig:circle2}{figures/IntroTrigGraphics/TheUnitCircle-3}
 
 \item  The angle $\theta=-\pi$ represents one half of a clockwise revolution so its terminal side lies on the negative $x$-axis.  The point on the Unit Circle that lies on the negative $x$-axis is $(-1,0)$ which means  $\cos(-\pi) = -1$ and $\sin(-\pi) = 0$.
 
@@ -242,10 +236,10 @@ In light of Theorem \ref{refanglethm}, it pays to know the cosine and sine value
 
 \pagebreak
 
-The reader may have noticed that when expressed in radian measure, the reference angle for a non-quadrantal angle is easy to spot.  Reduced fraction multiples of $\pi$ with a denominator of $6$ have $\frac{\pi}{6}$ as a reference angle, those with a denominator of $4$ have $\frac{\pi}{4}$ as their reference angle, and those with a denominator of $3$ have $\frac{\pi}{3}$ as their reference angle. (For once, we have something convenient about using radian measure in contrast to the abstract theoretical nonsense about using them as a `natural' way to match oriented angles with real numbers!)  The Reference Angle Theorem in conjunction with the table of cosine and sine values on Page \pageref{CosineSineFacts} can be used to generate the following figure, which the authors feel should be committed to memory. (At the very least, one should memorize the first quadrant and learn to make use of Theorem \ref{refanglethm}.)
+The reader may have noticed that when expressed in radian measure, the reference angle is easy to spot.  Reduced fraction multiples of $\pi$ with a denominator of $6$ have $\frac{\pi}{6}$ as a reference angle, those with a denominator of $4$ have $\frac{\pi}{4}$ as their reference angle, and those with a denominator of $3$ have $\frac{\pi}{3}$ as their reference angle.  The Reference Angle Theorem in conjunction with the table of cosine and sine values on Page \pageref{CosineSineFacts} can be used to generate the following figure, which the authors feel should be committed to memory. (At the very least, one should memorize the first quadrant and learn to make use of Theorem \ref{refanglethm}.)
 
 \medskip
-\noindent\begin{minipage}{\textwidth}
+\noindent\hskip-110pt\begin{minipage}{\textwidth}
 
 
 \index{Unit Circle ! important points}
@@ -258,115 +252,115 @@ The reader may have noticed that when expressed in radian measure, the reference
 
 \pagebreak
 
-The next example summarizes all of the important ideas discussed thus far in the section.
+%The next example summarizes all of the important ideas discussed thus far in the section.
 
-\medskip
+%\medskip
 
-\example{advancedrefangleex}{Using reference angles}{  Suppose $\alpha$ is an acute angle with $\cos(\alpha) = \frac{5}{13}$.  
+%\example{advancedrefangleex}{Using reference angles}{  Suppose $\alpha$ is an acute angle with $\cos(\alpha) = \frac{5}{13}$.  
 
-\begin{enumerate}
+%\begin{enumerate}
 
-\item Find $\sin(\alpha)$ and use this to plot $\alpha$ in standard position.
+%\item Find $\sin(\alpha)$ and use this to plot $\alpha$ in standard position.
 
-\item  Find the sine and cosine of the following angles:
+%\item  Find the sine and cosine of the following angles:
 
-\begin{multicols}{2}
+%\begin{multicols}{2}
 
-\begin{enumerate}
+%\begin{enumerate}
 
-\item  $\theta = \pi + \alpha$
+%\item  $\theta = \pi + \alpha$
 
-\item  $\theta = 2\pi - \alpha$
+%\item  $\theta = 2\pi - \alpha$
 
-\item  $\theta = 3\pi - \alpha$
+%\item  $\theta = 3\pi - \alpha$
 
-\item  $\theta = \frac{\pi}{2} + \alpha$
+%\item  $\theta = \frac{\pi}{2} + \alpha$
 
-\end{enumerate}
-\end{multicols}
+%\end{enumerate}
+%\end{multicols}
 
-\end{enumerate}
-}
-{
-\begin{enumerate}
+%\end{enumerate}
+%}
+%{
+%\begin{enumerate}
 
-\item Proceeding as in Example \ref{cosinesinepythidex}, we substitute $\cos(\alpha) = \frac{5}{13}$ into $\cos^{2}(\alpha) + \sin^{2}(\alpha) = 1$ and find $\sin(\alpha) = \pm \frac{12}{13}$.  Since $\alpha$ is an acute (and therefore Quadrant I) angle, $\sin(\alpha)$ is positive.  Hence,  $\sin(\alpha) = \frac{12}{13}$.  To plot $\alpha$ in standard position, we begin our rotation on the positive $x$-axis to the ray which contains the point $(\cos(\alpha), \sin(\alpha)) = \left(\frac{5}{13}, \frac{12}{13}\right)$: see Figure \ref{fig:circle16}.
+%\item Proceeding as in Example \ref{cosinesinepythidex}, we substitute $\cos(\alpha) = \frac{5}{13}$ into $\cos^{2}(\alpha) + \sin^{2}(\alpha) = 1$ and find $\sin(\alpha) = \pm \frac{12}{13}$.  Since $\alpha$ is an acute (and therefore Quadrant I) angle, $\sin(\alpha)$ is positive.  Hence,  $\sin(\alpha) = \frac{12}{13}$.  To plot $\alpha$ in standard position, we begin our rotation on the positive $x$-axis to the ray which contains the point $(\cos(\alpha), \sin(\alpha)) = \left(\frac{5}{13}, \frac{12}{13}\right)$: see Figure \ref{fig:circle16}.
 
-\mfigure[width=0.95\marginparwidth]{.6}{Sketching $\alpha$}{fig:circle16}{figures/IntroTrigGraphics/TheUnitCircle-22}
+%\mfigure[width=0.95\marginparwidth]{.6}{Sketching $\alpha$}{fig:circle16}{figures/IntroTrigGraphics/TheUnitCircle-22}
 
-\item \begin{enumerate} \item To find the cosine and sine of $\theta = \pi + \alpha$, we first plot $\theta$ in standard position. We can imagine the sum of the angles $\pi + \alpha$ as a sequence of two rotations: a rotation of $\pi$ radians followed by a rotation of  $\alpha$ radians. (Since $\pi + \alpha = \alpha + \pi$, $\theta$ may be plotted by reversing the order of rotations given here. You should do this.)  We see that $\alpha$ is the reference angle for $\theta$, so by The Reference Angle Theorem,  $\cos(\theta) = \pm \cos(\alpha) = \pm \frac{5}{13}$ and $\sin(\theta) = \pm \sin(\alpha) = \pm \frac{12}{13}$. Since the terminal side of $\theta$ falls in Quadrant III, both $\cos(\theta)$ and $\sin(\theta)$ are negative, hence, $\cos(\theta) = - \frac{5}{13}$ and $\sin(\theta) = - \frac{12}{13}$.
+%\item \begin{enumerate} \item To find the cosine and sine of $\theta = \pi + \alpha$, we first plot $\theta$ in standard position. We can imagine the sum of the angles $\pi + \alpha$ as a sequence of two rotations: a rotation of $\pi$ radians followed by a rotation of  $\alpha$ radians. (Since $\pi + \alpha = \alpha + \pi$, $\theta$ may be plotted by reversing the order of rotations given here. You should do this.)  We see that $\alpha$ is the reference angle for $\theta$, so by The Reference Angle Theorem,  $\cos(\theta) = \pm \cos(\alpha) = \pm \frac{5}{13}$ and $\sin(\theta) = \pm \sin(\alpha) = \pm \frac{12}{13}$. Since the terminal side of $\theta$ falls in Quadrant III, both $\cos(\theta)$ and $\sin(\theta)$ are negative, hence, $\cos(\theta) = - \frac{5}{13}$ and $\sin(\theta) = - \frac{12}{13}$.
 
-\medskip
+%\medskip
 
-\noindent\hskip-20pt\begin{minipage}{\textwidth}
-\begin{tabular}{cc}
-\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-23}&
-\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-24}\\
-Visualizing $\theta = \pi+\alpha$ & $\theta$ has reference angle $\alpha$
-\end{tabular}
-\captionsetup{type=figure}
-\caption{Finding $\cos(\theta)$ and $\sin(\theta)$ in Example \ref{advancedrefangleex}.2(a)}\label{fig:circle17}
-\end{minipage}
+%\noindent\hskip-20pt\begin{minipage}{\textwidth}
+%\begin{tabular}{cc}
+%\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-23}&
+%\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-24}\\
+%Visualizing $\theta = \pi+\alpha$ & $\theta$ has reference angle $\alpha$
+%\end{tabular}
+%\captionsetup{type=figure}
+%\caption{Finding $\cos(\theta)$ and $\sin(\theta)$ in Example %\ref{advancedrefangleex}.2(a)}\label{fig:circle17}
+%\end{minipage}
 
-\medskip
-
-
-
-\item  Rewriting $\theta = 2\pi - \alpha$ as $\theta = 2\pi + (-\alpha)$, we can  plot $\theta$ by visualizing one complete revolution counter-clockwise followed by a \textit{clockwise} revolution, or `backing up,'  of $\alpha$ radians.  We see that $\alpha$ is $\theta$'s reference angle, and since $\theta$ is a Quadrant IV angle, the Reference Angle Theorem gives:  $\cos(\theta) = \frac{5}{13}$ and  $\sin(\theta) = -\frac{12}{13}$.
-
-\medskip
-
-\noindent\hskip-20pt\begin{minipage}{\textwidth}
-\begin{tabular}{cc}
-\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-25}&
-\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-26}\\
-Visualizing $\theta = 2\pi-\alpha$ & $\theta$ has reference angle $\alpha$
-\end{tabular}
-\captionsetup{type=figure}
-\caption{Finding $\cos(\theta)$ and $\sin(\theta)$ in Example \ref{advancedrefangleex}.2(b)}\label{fig:circle18}
-\end{minipage}
-
-\medskip
-
-\drawexampleline
-
-\item  Taking a cue from the previous problem, we rewrite $\theta = 3\pi - \alpha$ as $\theta = 3\pi + (-\alpha)$.  The angle $3\pi$ represents one and a half revolutions counter-clockwise, so that when we `back up' $\alpha$ radians, we end up in Quadrant II.  Using the Reference Angle Theorem, we get $\cos(\theta) = -\frac{5}{13}$ and $\sin(\theta) = \frac{12}{13}$.
-
-\medskip
-
-\noindent\hskip-20pt\begin{minipage}{\textwidth}
-\begin{tabular}{cc}
-\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-27}&
-\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-28}\\
-Visualizing $\theta = 3\pi-\alpha$ & $\theta$ has reference angle $\alpha$
-\end{tabular}
-\captionsetup{type=figure}
-\caption{Finding $\cos(\theta)$ and $\sin(\theta)$ in Example \ref{advancedrefangleex}.2(c)}\label{fig:circle19}
-\end{minipage}
-
-\medskip
+%\medskip
 
 
-\item  To plot $\theta = \frac{\pi}{2} + \alpha$, we first rotate $\frac{\pi}{2}$ radians and follow up with $\alpha$ radians.  The reference angle here is \textit{not} $\alpha$, so The Reference Angle Theorem is not immediately applicable.  (It's important that you see why this is the case.  Take a moment to think about this before reading on.)  Let $Q(x,y)$ be the point on the terminal side of $\theta$ which lies on the Unit Circle so that $x = \cos(\theta)$ and $y = \sin(\theta)$.   Once we graph $\alpha$ in standard position, we use the fact that equal angles subtend equal chords to show that the dotted lines in the figure below are equal.  Hence,  $x = \cos(\theta) = -\frac{12}{13}$.  Similarly, we find  $y = \sin(\theta) = \frac{5}{13}$. 
 
-\medskip
+%\item  Rewriting $\theta = 2\pi - \alpha$ as $\theta = 2\pi + (-\alpha)$, we can  plot $\theta$ by visualizing one complete revolution counter-clockwise followed by a \textit{clockwise} revolution, or `backing up,'  of $\alpha$ radians.  We see that $\alpha$ is $\theta$'s reference angle, and since $\theta$ is a Quadrant IV angle, the Reference Angle Theorem gives:  $\cos(\theta) = \frac{5}{13}$ and  $\sin(\theta) = -\frac{12}{13}$.
 
-\noindent\hskip-20pt\begin{minipage}{\textwidth}
-\begin{tabular}{cc}
-\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-29}&
-\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-30}\\
-Visualizing $\theta = \frac{\pi}{2}+\alpha$ & Using symmetry to determine $Q(x,y)$
-\end{tabular}
-\captionsetup{type=figure}
-\caption{Finding $\cos(\theta)$ and $\sin(\theta)$ in Example \ref{advancedrefangleex}.2(a)}\label{fig:circle20}
-\end{minipage}
+%\medskip
 
-\medskip
+%\noindent\hskip-20pt\begin{minipage}{\textwidth}
+%\begin{tabular}{cc}
+%\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-25}&
+%\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-26}\\
+%Visualizing $\theta = 2\pi-\alpha$ & $\theta$ has reference angle $\alpha$
+%\end{tabular}
+%\captionsetup{type=figure}
+%\caption{Finding $\cos(\theta)$ and $\sin(\theta)$ in Example \ref{advancedrefangleex}.2(b)}\label{fig:circle18}
+%\end{minipage}
 
-\end{enumerate}
+%\medskip
 
-\end{enumerate}
-}
+%\drawexampleline
+
+%\item  Taking a cue from the previous problem, we rewrite $\theta = 3\pi - \alpha$ as $\theta = 3\pi + (-\alpha)$.  The angle $3\pi$ represents one and a half revolutions counter-clockwise, so that when we `back up' $\alpha$ radians, we end up in Quadrant II.  Using the Reference Angle Theorem, we get $\cos(\theta) = -\frac{5}{13}$ and $\sin(\theta) = \frac{12}{13}$.
+
+%\medskip
+
+%\noindent\hskip-20pt\begin{minipage}{\textwidth}
+%\begin{tabular}{cc}
+%\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-27}&
+%\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-28}\\
+%Visualizing $\theta = 3\pi-\alpha$ & $\theta$ has reference angle $\alpha$
+%\end{tabular}
+%\captionsetup{type=figure}
+%\caption{Finding $\cos(\theta)$ and $\sin(\theta)$ in Example \ref{advancedrefangleex}.2(c)}\label{fig:circle19}
+%\end{minipage}
+
+%\medskip
+
+
+%\item  To plot $\theta = \frac{\pi}{2} + \alpha$, we first rotate $\frac{\pi}{2}$ radians and follow up with $\alpha$ radians.  The reference angle here is \textit{not} $\alpha$, so The Reference Angle Theorem is not immediately applicable.  (It's important that you see why this is the case.  Take a moment to think about this before reading on.)  Let $Q(x,y)$ be the point on the terminal side of $\theta$ which lies on the Unit Circle so that $x = \cos(\theta)$ and $y = \sin(\theta)$.   Once we graph $\alpha$ in standard position, we use the fact that equal angles subtend equal chords to show that the dotted lines in the figure below are equal.  Hence,  $x = \cos(\theta) = -\frac{12}{13}$.  Similarly, we find  $y = \sin(\theta) = \frac{5}{13}$. 
+
+%\medskip
+
+%\noindent\hskip-20pt\begin{minipage}{\textwidth}
+%\begin{tabular}{cc}
+%\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-29}&
+%\myincludegraphics[width=0.45\textwidth]{figures/IntroTrigGraphics/TheUnitCircle-30}\\
+%Visualizing $\theta = \frac{\pi}{2}+\alpha$ & Using symmetry to determine $Q(x,y)$
+%\end{tabular}
+%\captionsetup{type=figure}
+%\caption{Finding $\cos(\theta)$ and $\sin(\theta)$ in Example \ref{advancedrefangleex}.2(a)}\label{fig:circle20}
+%\end{minipage}
+
+%\medskip
+
+%\end{enumerate}
+
+%\end{enumerate}
+%}
 
 \medskip 
 
@@ -389,7 +383,7 @@ Our next example asks us to solve some very basic trigonometric equations.
 \end{enumerate}
 
 \end{multicols}}
-{Since there is no context in the problem to indicate whether to use degrees or radians, we will default to using radian measure in our answers to each of these problems.  This choice will be justified later in the text when we study what is known as Analytic Trigonometry.  In those sections to come, radian measure will be the \emph{only} appropriate angle measure so it is worth the time to become ``fluent in radians'' now.
+{%Since there is no context in the problem to indicate whether to use degrees or radians, we will default to using radian measure in our answers to each of these problems.  This choice will be justified later in the text when we study what is known as Analytic Trigonometry.  In those sections to come, radian measure will be the \emph{only} appropriate angle measure so it is worth the time to become ``fluent in radians'' now.
 
 \begin{enumerate} 
 
@@ -406,11 +400,10 @@ Our next example asks us to solve some very basic trigonometric equations.
 \caption{Angles with $\cos(\theta)=\frac{1}{2}$}\label{fig:circle21}
 \end{minipage}
 
-\pagebreak
 
 One solution in  Quadrant I is  $\theta = \frac{\pi}{3}$, and since all other Quadrant I solutions must be coterminal with $\frac{\pi}{3}$, we find $\theta = \frac{\pi}{3} + 2\pi k$ for integers $k$.  Proceeding similarly for the Quadrant IV case, we find the solution to $\cos(\theta) = \frac{1}{2}$ here is $\frac{5 \pi}{3}$, so our answer in this Quadrant  is $\theta = \frac{5\pi}{3} + 2\pi k$ for integers $k$. 
 
-\mnote{.85}{Recall from Section \ref{Angles} that two angles in radian measure are coterminal if and only if they differ by an integer multiple of $2\pi$.  Hence to describe all angles coterminal with a given angle, we add $2\pi k$ for integers $k = 0$, $\pm 1$, $\pm 2$, \dots.}
+%\mnote{.85}{Recall from Section \ref{Angles} that two angles in radian measure are coterminal if and only if they differ by an integer multiple of $2\pi$.  Hence to describe all angles coterminal with a given angle, we add $2\pi k$ for integers $k = 0$, $\pm 1$, $\pm 2$, \dots.}
 
 \item  If $\sin(\theta) = -\frac{1}{2}$, then when $\theta$ is plotted in standard position, its terminal side intersects the Unit Circle at  $y=-\frac{1}{2}$.  From this, we determine $\theta$ is a Quadrant III or Quadrant IV angle with reference angle $\frac{\pi}{6}$.
 
@@ -455,133 +448,16 @@ While, technically speaking, $\frac{\pi}{2}$ isn't a reference angle we can none
 
 One of the key items to take from Example \ref{solveforangle} is that, in general, solutions to trigonometric equations consist of infinitely many answers.  The reader is encouraged write out as many of these answers as necessary to get a feel for them.   This is especially important when checking answers to the exercises.   For example, another Quadrant IV solution to $\sin(\theta) = -\frac{1}{2}$ is $\theta = -\frac{\pi}{6}$.  Hence, the family of Quadrant IV answers to number \ref{sineisnegativehalf} above could just have easily been written $\theta = -\frac{\pi}{6} + 2\pi k$ for integers $k$.  While on the surface, this family may look different than the stated solution of $\theta = \frac{11\pi}{6} + 2\pi k$ for integers $k$, we leave it to the reader to show they represent the same list of angles.
 
-\subsection{Beyond the Unit Circle}
-\label{cosinesinebeyond}
 
-We began the section with a quest to describe the position of a particle experiencing circular motion.  In defining the cosine and sine functions, we assigned to each angle a position on the \textit{Unit} Circle.  In this subsection, we broaden our scope to include circles of radius $r$ centered at the origin.  Consider for the moment the \textit{acute} angle $\theta$ drawn below in standard position.  Let $Q(x,y)$ be the point on the terminal side of $\theta$ which lies on the circle $x^2+y^2 = r^2$, and let $P(x',y')$ be the point on the terminal side of $\theta$ which lies on the Unit Circle.   Now consider dropping perpendiculars from $P$ and $Q$ to create two right triangles, $\Delta OPA$ and $\Delta OQB$. These triangles are similar, (do you remember why?) thus it follows that $\frac{x}{x'} = \frac{r}{1} = r$, so $x = r x'$ and, similarly, we find $y = r y'$.  Since, by definition, $x' = \cos(\theta)$ and $y' = \sin(\theta)$,  we get the coordinates of $Q$ to be $x = r \cos(\theta)$ and $y = r \sin(\theta)$.  By reflecting these points through the $x$-axis, $y$-axis and origin, we obtain the result for all non-quadrantal angles $\theta$, and we leave it to the reader to verify these formulas hold for the quadrantal angles.
-
-\bigskip
-
-\noindent\ifthenelse{\isodd{\thepage}}{}{\hskip-100pt}
-\begin{minipage}{\textwidth+100pt}
-\begin{tabular}{cc}
-\myincludegraphics{figures/IntroTrigGraphics/TheUnitCircle-37}&
-\myincludegraphics{figures/IntroTrigGraphics/TheUnitCircle-38}\\
-\end{tabular}
-\captionsetup{type=figure}
-\caption{Determining coordinates of $Q(x,y)$ in terms of $\cos(\theta)$ and $\sin(\theta)$}\label{fig:circle24}
-\end{minipage}
-
-\bigskip
-
-
-
-\smallskip
-
-Not only can we describe the coordinates of $Q$ in terms of $\cos(\theta)$ and $\sin(\theta)$ but since the radius of the circle is $r = \sqrt{x^2 + y^2}$, we can also express $\cos(\theta)$ and $\sin(\theta)$ in terms of the coordinates of $Q$.  These results are summarized in the following theorem.
-
-\smallskip
-
-\theorem{cosinesinecircle}{Generalized sine and cosine}{ If $Q(x,y)$ is the point on the terminal side of an angle $\theta$, plotted in standard position, which lies on the circle $x^2+y^2 = r^2$ then $x = r \cos(\theta)$ and $y = r \sin(\theta)$.  Moreover, \index{cosine ! of an angle} \index{sine ! of an angle}
-
-\[\begin{array}{ccc} \cos(\theta)= \dfrac{x}{r}  = \dfrac{x}{\sqrt{x^2+y^2}} & \text{and} &  \sin(\theta) = \dfrac{y}{r} = \dfrac{y}{\sqrt{x^2+y^2}} \\ \end{array} \]
-}
-
-\smallskip
-
-Note that in the case of the Unit Circle we have $r = \sqrt{x^2+y^2} = 1$, so Theorem \ref{cosinesinecircle} reduces to our definitions of $\cos(\theta)$ and $\sin(\theta)$.
 
 \medskip
 
-\example{cosinesinecircleex}{Finding $cos(\theta)$ and $\sin(\theta)$ beyond the unit circle}{
-\begin{enumerate}
-
-\item  Suppose that the terminal side of an angle $\theta$, when plotted in standard position,  contains the point $Q(4,-2)$.  Find $\sin(\theta)$ and $\cos(\theta)$.
-
-\item In Example \ref{EarthRotationEx} in Section \ref{Angles}, we approximated the radius of the earth at  $41.628^{\circ}$ north latitude to be $2960$ miles. Justify this approximation if the radius of the Earth at the Equator is approximately $3960$ miles.  
-
-\end{enumerate}
-}
-{
-\begin{enumerate}
-
-\item  Using Theorem \ref{cosinesinecircle} with $x = 4$ and $y = -2$, we find $r = \sqrt{(4)^2 + (-2)^2} = \sqrt{20} = 2 \sqrt{5}$ so that $\cos(\theta) = \frac{x}{r} =  \frac{4}{2 \sqrt{5}} = \frac{2 \sqrt{5}}{5}$ and $\sin(\theta) = \frac{y}{r} =  \frac{-2}{2 \sqrt{5}} = -\frac{\sqrt{5}}{5}$: see Figure \ref{fig:circle25}.
-
-\mfigure[width=0.95\marginparwidth]{.6}{The terminal side of $\theta$ contains $Q(4,-2)$}{fig:circle25}{figures/IntroTrigGraphics/TheUnitCircle-39}
-
-\item  Assuming the Earth is a sphere, a cross-section through the poles produces a circle of radius $3960$ miles.  Viewing the Equator as the $x$-axis, the value we seek is the $x$-coordinate of the point $Q(x,y)$ indicated in Figure \ref{fig:circle26}
- 
-\mfigure[width=0.95\marginparwidth]{.4}{A point on the Earth at $41.628^\circ$N}{fig:circle26}{figures/IntroTrigGraphics/TheUnitCircle-40}
- 
-Using Theorem \ref{cosinesinecircle}, we get $x = 3960 \cos\left(41.628^{\circ}\right)$.  Using a calculator in `degree' mode,  we find  $3960 \cos\left(41.628^{\circ}\right) \approx 2960$.  Hence, the radius of the Earth at North Latitude $41.628^{\circ}$ is approximately $2960$ miles.
-
-\end{enumerate}
-}
-
-\medskip
-
-Theorem \ref{cosinesinecircle} gives us what we need to describe the position of an object traveling in a circular path of radius $r$ with constant angular velocity $\omega$.  Suppose that at time $t$, the object has swept out an angle measuring $\theta$ radians.  If we assume that the object is at the point $(r,0)$ when $t=0$, the angle $\theta$ is in standard position.  By definition, $\omega = \frac{\theta}{t}$ which we rewrite as  $\theta = \omega t$.  According to Theorem \ref{cosinesinecircle}, the location of the object $Q(x,y)$ on the circle is found using the equations  $x = r \cos(\theta) = r \cos(\omega t)$ and $y = r \sin(\theta) = r \sin(\omega t)$.  Hence, at time $t$, the object is at the point $(r \cos(\omega t), r \sin(\omega t))$.  We have just argued the following.
-
-
-\pagebreak
-
-\theorem{equationsforcircularmotion}{Equations for circular motion}{ Suppose an object is travelling in a circular path of radius $r$ centred at the origin with constant angular velocity $\omega$.  If $t=0$ corresponds to the point $(r,0)$, then the $x$ and $y$ coordinates of the object are functions of $t$ and are given by $x =  r \cos(\omega t)$ and $y = r \sin(\omega t)$.  Here, $\omega > 0$ indicates a counter-clockwise direction and $\omega < 0$ indicates a clockwise direction.
-}
-
-\medskip
-
-\begin{minipage}{0.9\textwidth}
-\begin{center}
-\myincludegraphics{figures/IntroTrigGraphics/TheUnitCircle-41}
-\end{center}
-\captionsetup{type=figure}
-\caption{Equations for circular motion}\label{fig:circle27}
-\end{minipage}
-
-\medskip
-
-
-\example{Lakelandrotates}{Motion on the Earth's surface}{  Suppose we are in the situation of Example \ref{EarthRotationEx}.  Find the equations of motion of Lakeland Community College as the earth rotates.}
-{From Example \ref{EarthRotationEx}, we take $r = 2960$ miles and and $\omega = \frac{\pi}{12 \, \text{hours}}$.  Hence, the equations of motion are $x =  r \cos(\omega t) = 2960 \cos\left(\frac{\pi}{12} t\right)$ and  $y =  r \sin(\omega t) = 2960 \sin\left(\frac{\pi}{12} t\right)$, where $x$ and $y$ are measured in miles and $t$ is measured in hours.}
-
-\medskip
-
-In addition to circular motion, Theorem \ref{cosinesinecircle} is also the key to developing what is usually called `right triangle' trigonometry. (You were probably exposed to this in High School.)  As we shall see in the sections to come, many applications in trigonometry involve finding the measures of the angles in, and lengths of the sides of, right triangles.  Indeed, we made good use of some properties of right triangles to find the exact values of the cosine and sine of many of the angles in Example \ref{cosinesineviaunitcircle}, so the following development shouldn't be that much of a surprise.  Consider the generic right triangle below with corresponding acute angle $\theta$. The side with length $a$ is called the side of the triangle \emph{adjacent} to  $\theta$; the side with length $b$ is called the side of the triangle \emph{opposite} $\theta$; and the remaining side of length $c$ (the side opposite the right angle) is called the hypotenuse. We now imagine drawing this triangle in Quadrant I so that the angle $\theta$ is in standard position with the adjacent side to $\theta$ lying along the positive $x$-axis. 
-
-\mtable{.25}{Relating triangular and circular trigonometry}{fig:tritrig1}{
-\begin{tabular}{c}
-\myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/TheUnitCircle-42}\\
-\\
-\myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/TheUnitCircle-43}
-\end{tabular}}
-
-According to the Pythagorean Theorem, $a^2+b^2=c^2$, so that the point $P(a,b)$ lies on a circle of radius $c$.  Theorem \ref{cosinesinecircle} tells us that $\cos(\theta) = \frac{a}{c}$ and $\sin(\theta) = \frac{b}{c}$, so we have determined the cosine and sine of $\theta$ in terms of the lengths of the sides of the right triangle.  Thus we have the following theorem.
- 
-\smallskip
-
-\theorem{cosinesinetriangle}{Sine and cosine for right triangles}{  Suppose $\theta$ is an acute angle residing in a right triangle.  If the length of the side adjacent to $\theta$ is $a$, the length of the side opposite $\theta$ is $b$, and the length of the hypotenuse is $c$, then $\cos(\theta) = \dfrac{a}{c}$ and $\sin(\theta) = \dfrac{b}{c}$.
-}
-
-\medskip
-
-\example{righttriangleex}{Using triangular trigonometry}{ Find the measure of the missing angle and the lengths of the missing sides of the triangle in Figure \ref{fig:tritrig2}.
-
-\mfigure[width=0.7\marginparwidth]{.7}{The triangle for Example \ref{righttriangleex}}{fig:tritrig2}{figures/IntroTrigGraphics/TheUnitCircle-44}
-}
-{The first and easiest task is to find the measure of the missing angle.  Since the sum of angles of a triangle is $180^{\circ}$, we know that the missing angle has measure $180^{\circ} - 30^{\circ} - 90^{\circ} = 60^{\circ}$.  We now proceed to find the lengths of the remaining two sides of the triangle.  Let $c$ denote the length of the hypotenuse of the triangle.  By Theorem \ref{cosinesinetriangle}, we have $\cos\left(30^{\circ}\right) = \frac{7}{c}$, or $c = \frac{7}{\cos\left(30^{\circ}\right)}$.  Since $\cos\left(30^{\circ}\right) = \frac{\sqrt{3}}{2}$, we have, after the usual fraction gymnastics, $c = \frac{14 \sqrt{3}}{3}$.  At this point, we have two ways to proceed to find the length of the side opposite the $30^{\circ}$ angle, which we'll denote $b$.  We know the length of the adjacent side is $7$ and the length of the hypotenuse is $\frac{14 \sqrt{3}}{3}$, so we could use the Pythagorean Theorem to find the missing side and solve  $(7)^2 + b^2 = \left( \frac{14 \sqrt{3}}{3} \right)^{2}$ for $b$.  Alternatively, we could use Theorem \ref{cosinesinetriangle}, namely that $\sin\left(30^{\circ}\right) = \frac{b}{c}$.  Choosing the latter, we find $b = c \sin\left(30^{\circ}\right) = \frac{14 \sqrt{3}}{3} \cdot \frac{1}{2} = \frac{7 \sqrt{3}}{3}$.  The triangle with all of its data is recorded in Figure \ref{fig:tritrig3}
-
-\mfigure[width=0.95\marginparwidth]{.52}{The completed triangle for Example \ref{righttriangleex}}{fig:tritrig3}{figures/IntroTrigGraphics/TheUnitCircle-45}
-
-}
-
-\medskip
-
-We close this section by noting that we can easily extend the functions cosine and sine to real numbers by identifying a real number $t$ with the angle $\theta = t$ radians.  Using this identification, we define $\cos(t) = \cos(\theta)$ and $\sin(t) = \sin(\theta)$. In practice this means expressions like $\cos(\pi)$ and $\sin(2)$ can be found by regarding the inputs as angles in radian measure or real numbers;  the choice is the reader's.  If we trace the identification of real numbers $t$ with angles $\theta$ in radian measure to its roots on page \pageref{wrappingfunction}, we can spell out this correspondence more precisely.  For each real number $t$, we associate an oriented arc $t$ units in length with initial point $(1,0)$ and endpoint $P(\cos(t), \sin(t))$.
+We close this section by noting that we can easily extend the functions cosine and sine to real numbers by identifying a real number $t$ with the angle $\theta = t$ radians.  Using this identification, we define $\cos(t) = \cos(\theta)$ and $\sin(t) = \sin(\theta)$. In practice this means expressions like $\cos(\pi)$ and $\sin(2)$ can be found by regarding the inputs as angles in radian measure or real numbers;  the choice is the reader's.  
 
 
 In the same way we studied polynomial, rational, exponential, and logarithmic functions, we will study the trigonometric functions $f(t) = \cos(t)$ and $g(t) = \sin(t)$.  The first order of business is to find the domains and ranges of these functions.  Whether we think of identifying the real number $t$ with the angle $\theta = t$ radians, or think of wrapping an oriented arc around the Unit Circle to find coordinates on the Unit Circle, it should be clear that both the cosine and sine functions are defined for all real numbers $t$.  In other words, the domain  of $f(t) = \cos(t)$ and of $g(t) = \sin(t)$ is $(-\infty, \infty)$.  Since $\cos(t)$ and $\sin(t)$ represent $x$- and $y$-coordinates, respectively, of points on the Unit Circle, they both take on all of the values between $-1$ an $1$, inclusive.  In other words, the range of $f(t) = \cos(t)$ and of $g(t) = \sin(t)$ is the interval $[-1,1]$.  To summarize:
 
-\mtable{.25}{Defining $\cos(t)$ and $\sin(t)$ as functions of a real variable}{fig:circle28}{
+\mtable{.65}{Defining $\cos(t)$ and $\sin(t)$ as functions of a real variable}{fig:circle28}{
 \begin{tabular}{c}
 \myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/TheUnitCircle-46}\\
 \\

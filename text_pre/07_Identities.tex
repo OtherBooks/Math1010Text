@@ -4,7 +4,7 @@
 
 In Section \ref{CircularFunctions}, we saw the utility of the Pythagorean Identities in Theorem \ref{pythids} along with the Quotient and Reciprocal Identities in Theorem \ref{recipquotid}.  Not only did these identities help us compute the values of the circular functions for angles, they were also useful in simplifying expressions involving the circular functions.  In this section, we introduce several collections of identities which have uses in this course and beyond.  Our first set of identities is the `Even / Odd' identities.
 
-\mnote{.8}{As mentioned at the end of Section \ref{TheUnitCircle}, properties of the circular functions when thought of as functions of angles in radian measure hold equally well if we view these functions as functions of real numbers.  Not surprisingly, the Even / Odd properties of the circular functions are so named because they identify cosine and secant as even functions, while the remaining four circular functions are odd.  (See Section \ref{GraphsofFunctions}.)}
+\mnote{.8}{As mentioned at the end of Section \ref{TheUnitCircle}, properties of the circular functions when thought of as functions of angles in radian measure hold equally well if we view these functions as functions of real numbers.  Not surprisingly, the Even / Odd properties of the circular functions are so named because they identify cosine and secant as even functions, while the remaining four circular functions are odd.  }
 
 \smallskip
 
@@ -33,7 +33,7 @@ In Section \ref{CircularFunctions}, we saw the utility of the Pythagorean Identi
 
 \smallskip
 
-In light of the Quotient and Reciprocal Identities, Theorem \ref{recipquotid}, it suffices to show $\cos(-\theta) = \cos(\theta)$ and $\sin(-\theta) = -\sin(\theta)$.  The remaining four circular functions can be expressed in terms of $\cos(\theta)$ and $\sin(\theta)$ so the proofs of their Even / Odd Identities are left as exercises.  Consider an angle $\theta$ plotted in standard position. Let $\theta_{0}$ be the angle coterminal with $\theta$ with $0 \leq \theta_{0} < 2\pi$.  (We can construct the angle $\theta_{0}$ by rotating counter-clockwise from the positive $x$-axis to the terminal side of $\theta$ as pictured in Figure \ref{fig:identities1}.)  Since $\theta$ and $\theta_{0}$ are coterminal, $\cos(\theta) = \cos(\theta_{0})$ and $\sin(\theta) = \sin(\theta_{0})$.
+In light of the Quotient and Reciprocal Identities, Theorem \ref{recipquotid}, it suffices to show $\cos(-\theta) = \cos(\theta)$ and $\sin(-\theta) = -\sin(\theta)$.  The remaining four circular functions can be expressed in terms of $\cos(\theta)$ and $\sin(\theta)$ so the proofs of their Even / Odd Identities are left as exercises.  
 
 \mtable{.5}{Establishing Theorem \ref{evenodd}}{fig:identities1}{
 \begin{tabular}{c}
@@ -42,8 +42,9 @@ In light of the Quotient and Reciprocal Identities, Theorem \ref{recipquotid}, i
 \myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/Identities-2}
 \end{tabular}}
 
+By adding the appropriate multiple of $2\pi$, we may replace $\theta$ by the coterminal angle $\theta_0$ with $0\leq\theta_0 <2\pi$; the reader can verify that the angles $-\theta$ and $-\theta_0$ are then also coterminal. The Evan / Odd identities then follow by observing that the points $P=(\cos(\theta_0),\sin(\theta_0))$ and $Q=(\cos(-\theta_0), \sin(-\theta_0))$ lie on opposite sides of the $x$-axis, as shown in Figure \ref{fig:identities1}.
 
-We now consider the angles $-\theta$ and $-\theta_{0}$.  Since  $\theta$ is coterminal with $\theta_{0}$, there is some integer $k$ so that $\theta = \theta_{0} + 2\pi \cdot k$.  Therefore, $-\theta =   -\theta_{0} - 2\pi \cdot k = -\theta_{0} + 2\pi \cdot(-k)$.  Since $k$ is an integer, so is $(-k)$, which means $-\theta$ is coterminal with $-\theta_{0}$.  Hence,  $\cos(-\theta) = \cos(-\theta_{0})$ and $\sin(-\theta) = \sin(-\theta_{0})$.  Let $P$ and $Q$ denote the points on the terminal sides of $\theta_{0}$ and $-\theta_{0}$, respectively, which lie on the Unit Circle. By definition, the coordinates of $P$ are $(\cos(\theta_{0}),\sin(\theta_{0}))$ and the coordinates of $Q$ are $(\cos(-\theta_{0}),\sin(-\theta_{0}))$.  Since $\theta_{0}$ and $-\theta_{0}$ sweep out congruent central sectors of the Unit Circle, it follows that the points $P$ and $Q$ are symmetric about the $x$-axis.  Thus, $\cos(-\theta_{0}) = \cos(\theta_{0})$ and $\sin(-\theta_{0}) = -\sin(\theta_{0})$. Since the cosines and sines of $\theta_{0}$ and $-\theta_{0}$ are the same as those for $\theta$ and $-\theta$, respectively, we get $\cos(-\theta) = \cos(\theta)$ and $\sin(-\theta) = -\sin(\theta)$, as required. The Even / Odd Identities are readily demonstrated using any of the `common angles' noted in Section \ref{TheUnitCircle}.  Their true utility, however, lies not in computation, but in simplifying expressions involving the circular functions.  In fact, our next batch of identities makes heavy use of the Even / Odd Identities.
+ The Even / Odd Identities are readily demonstrated using any of the `common angles' noted in Section \ref{TheUnitCircle}.  Their true utility, however, lies not in computation, but in simplifying expressions involving the circular functions.  In fact, our next batch of identities makes heavy use of the Even / Odd Identities.
 
 \smallskip
 
@@ -161,7 +162,7 @@ We put these newfound identities to good use in the following example.
 \medskip
 
 
-The identity verified in Example \ref{cosinesumdiffex}, namely, $\cos\left(\frac{\pi}{2} - \theta\right) = \sin(\theta)$,  is the first of the celebrated `cofunction' identities.  These identities were first hinted at in Exercise \ref{cofunctionforeshadowing} in Section \ref{TheUnitCircle}. From $ \sin(\theta) = \cos\left(\frac{\pi}{2} - \theta\right) $, we get:
+The identity verified in Example \ref{cosinesumdiffex}, namely, $\cos\left(\frac{\pi}{2} - \theta\right) = \sin(\theta)$,  is the first of what are called the `cofunction' identities.   From $ \sin(\theta) = \cos\left(\frac{\pi}{2} - \theta\right) $, we get:
 
 \[ \sin\left(\dfrac{\pi}{2} - \theta\right) = \cos\left(\dfrac{\pi}{2} -\left[\dfrac{\pi}{2} - \theta\right]\right) = \cos(\theta),\]
 
@@ -339,7 +340,7 @@ The three different forms for $\cos(2\theta)$ can be explained by our ability to
 \end{enumerate}}
 {\begin{enumerate}
 
-\item  Using Theorem \ref{cosinesinecircle} from Section \ref{TheUnitCircle} with  $x = -3$ and $y=4$, we find $r = \sqrt{x^2+y^2} = 5$.  Hence, $\cos(\theta) = -\frac{3}{5}$ and $\sin(\theta) = \frac{4}{5}$.  Applying Theorem \ref{doubleangle}, we get $\cos(2\theta) = \cos^{2}(\theta) - \sin^{2}(\theta) = \left(-\frac{3}{5}\right)^2 - \left(\frac{4}{5}\right)^2 = -\frac{7}{25}$, and $\sin(2\theta) = 2 \sin(\theta) \cos(\theta) = 2 \left(\frac{4}{5}\right)\left(-\frac{3}{5}\right) = -\frac{24}{25}$.  Since both cosine and sine of $2\theta$ are negative, the terminal side of $2\theta$, when plotted in standard position, lies in Quadrant III.
+\item  The point $(-3,4)$ lies on a circle of radius $r = \sqrt{x^2+y^2} = 5$.  Hence, $\cos(\theta) = -\frac{3}{5}$ and $\sin(\theta) = \frac{4}{5}$.  Applying Theorem \ref{doubleangle}, we get $\cos(2\theta) = \cos^{2}(\theta) - \sin^{2}(\theta) = \left(-\frac{3}{5}\right)^2 - \left(\frac{4}{5}\right)^2 = -\frac{7}{25}$, and $\sin(2\theta) = 2 \sin(\theta) \cos(\theta) = 2 \left(\frac{4}{5}\right)\left(-\frac{3}{5}\right) = -\frac{24}{25}$.  Since both cosine and sine of $2\theta$ are negative, the terminal side of $2\theta$, when plotted in standard position, lies in Quadrant III.
 
 
 \item  If your first reaction to `$\sin(\theta) = x$' is `No it's not, $\cos(\theta) = x$!' then you have indeed learned something, and we take comfort in that. However, context is everything.  Here, `$x$' is just a variable - it does not necessarily represent the $x$-coordinate of the point on The Unit Circle which lies on the terminal side of $\theta$, assuming $\theta$ is drawn in standard position.  Here, $x$ represents the quantity $\sin(\theta)$, and what we wish to know is how to express $\sin(2\theta)$ in terms of $x$.    Since $\sin(2\theta) = 2 \sin(\theta) \cos(\theta)$, we need to write $\cos(\theta)$ in terms of $x$ to finish the problem.  We substitute $x = \sin(\theta)$ into the Pythagorean Identity, $\cos^{2}(\theta) + \sin^{2}(\theta) = 1$, to get $\cos^{2}(\theta) + x^2 = 1$, or $\cos(\theta) = \pm \sqrt{1-x^2}$.  Since  $-\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}$, $\cos(\theta) \geq 0$, and thus $\cos(\theta) = \sqrt{1-x^2}$.  Our final answer is  $\sin(2\theta) = 2 \sin(\theta) \cos(\theta) = 2x\sqrt{1-x^2}$.

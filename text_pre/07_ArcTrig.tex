@@ -2,7 +2,7 @@
 
 \label{ArcTrig}
 
-As the title indicates, in this section we concern ourselves with finding inverses of the (circular) trigonometric functions.  Our immediate problem is that, owing to their periodic nature, none of the six circular functions is  one-to-one. To remedy this, we restrict the domains of the circular functions in the same way we restricted the domain of the quadratic function in Example \ref{inverserestrictionex} in Section \ref{InverseFunctions} to obtain a one-to-one function.  We first consider $f(x) = \cos(x)$. Choosing the interval $[0,\pi]$ allows us to keep the range as $[-1,1]$ as well as the properties of being smooth and continuous.
+As the title indicates, in this section we concern ourselves with finding inverses of the (circular) trigonometric functions.  Our immediate problem is that, owing to their periodic nature, none of the six circular functions is  one-to-one. To remedy this, we restrict the domains of the circular functions to obtain a one-to-one function.  We first consider $f(x) = \cos(x)$. Choosing the interval $[0,\pi]$ allows us to keep the range as $[-1,1]$ as well as the properties of being smooth and continuous.
 
 \medskip
 
@@ -268,7 +268,7 @@ the basic properties of the arctangent and arccotangent functions are given in t
 $g(x) = \cot(x)$,  $0 < x <  \pi$\\
 \\
 \myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/ArcTrig-10}\\
-$gf^{-1}(x) = \operatorname{arccot}(x)$
+$g^{-1}(x) = \operatorname{arccot}(x)$
 \end{tabular}}
 
 \medskip
@@ -534,7 +534,7 @@ Now we need to determine what these conditions on $t$ mean for $x$.  Since $x = 
 
 
 
-\item  To simplify $\cos(\operatorname{arccsc}(4x))$, we start by letting $t = \operatorname{arccsc}(4x)$.   Then $\csc(t) = 4x$ for $t$ in $\left[-\frac{\pi}{2}, 0 \right) \cup \left(0, \frac{\pi}{2}\right]$, and we now set about finding an expression for  $\cos(\operatorname{arccsc}(4x)) = \cos(t)$.  Since $\cos(t)$ is defined for all $t$, we do not encounter any additional restrictions on $t$.  From $\csc(t) = 4x$, we get $\sin(t) = \frac{1}{4x}$, so to find $\cos(t)$, we can make use if the identity $\cos^{2}(t) + \sin^{2}(t) = 1$.  Substituting $\sin(t) = \frac{1}{4x}$  gives $\cos^{2}(t) + \left(\frac{1}{4x}\right)^2 = 1$.  Solving, we get \[\cos(t) = \pm \sqrt{\frac{16x^2-1}{16x^2}} = \pm \frac{\sqrt{16x^2-1}}{4|x|}\]  Since $t$ belongs to $\left[-\frac{\pi}{2}, 0 \right) \cup \left(0, \frac{\pi}{2}\right]$, we know $\cos(t) \geq 0$, so we choose $\cos(t) = \frac{\sqrt{16-x^2}}{4|x|}$. (The absolute values here are necessary, since $x$ could be negative.)  To find the values for which this equivalence is valid, we look back at our original substution,  $t = \operatorname{arccsc}(4x)$.  Since the domain of $\operatorname{arccsc}(x)$ requires its argument $x$ to satisfy $|x| \geq 1$, the domain of $\operatorname{arccsc}(4x)$ requires $|4x| \geq 1$.  Using Theorem \ref{absolutevalueineq}, we rewrite this inequality and solve to get $x \leq -\frac{1}{4}$ or $x \geq \frac{1}{4}$.  Since we had no additional restrictions on $t$, the equivalence  $\cos(\operatorname{arccsc}(4x)) = \frac{\sqrt{16x^2-1}}{4|x|}$  holds for all $x$ in $\left(-\infty, -\frac{1}{4} \right] \cup \left[\frac{1}{4}, \infty \right)$.  
+\item  To simplify $\cos(\operatorname{arccsc}(4x))$, we start by letting $t = \operatorname{arccsc}(4x)$.   Then $\csc(t) = 4x$ for $t$ in $\left[-\frac{\pi}{2}, 0 \right) \cup \left(0, \frac{\pi}{2}\right]$, and we now set about finding an expression for  $\cos(\operatorname{arccsc}(4x)) = \cos(t)$.  Since $\cos(t)$ is defined for all $t$, we do not encounter any additional restrictions on $t$.  From $\csc(t) = 4x$, we get $\sin(t) = \frac{1}{4x}$, so to find $\cos(t)$, we can make use if the identity $\cos^{2}(t) + \sin^{2}(t) = 1$.  Substituting $\sin(t) = \frac{1}{4x}$  gives $\cos^{2}(t) + \left(\frac{1}{4x}\right)^2 = 1$.  Solving, we get \[\cos(t) = \pm \sqrt{\frac{16x^2-1}{16x^2}} = \pm \frac{\sqrt{16x^2-1}}{4|x|}\]  Since $t$ belongs to $\left[-\frac{\pi}{2}, 0 \right) \cup \left(0, \frac{\pi}{2}\right]$, we know $\cos(t) \geq 0$, so we choose $\cos(t) = \frac{\sqrt{16-x^2}}{4|x|}$. (The absolute values here are necessary, since $x$ could be negative.)  To find the values for which this equivalence is valid, we look back at our original substution,  $t = \operatorname{arccsc}(4x)$.  Since the domain of $\operatorname{arccsc}(x)$ requires its argument $x$ to satisfy $|x| \geq 1$, the domain of $\operatorname{arccsc}(4x)$ requires $|4x| \geq 1$.  We rewrite this inequality and solve to get $x \leq -\frac{1}{4}$ or $x \geq \frac{1}{4}$.  Since we had no additional restrictions on $t$, the equivalence  $\cos(\operatorname{arccsc}(4x)) = \frac{\sqrt{16x^2-1}}{4|x|}$  holds for all $x$ in $\left(-\infty, -\frac{1}{4} \right] \cup \left[\frac{1}{4}, \infty \right)$.  
 
 \end{enumerate}
 
@@ -716,219 +716,6 @@ Hence, in all cases, $\cos(\operatorname{arccsc}(4x)) =  \frac{\sqrt{16x^2-1}}{4
 
 
 
-\medskip
-
-\subsection{Calculators and the Inverse Circular Functions.}
-\label{sectionarcstuffoncalc}
-
-In the sections to come, we will have need to approximate the values of the inverse circular functions.  On most calculators, only the arcsine, arccosine and arctangent functions are available and they are usually labelled as $\sin^{-1}, \cos^{-1}$ and $\tan^{-1}$, respectively.  If we are asked to approximate these values, it is a simple matter to punch up the appropriate decimal on the calculator.  If we are asked for an arccotangent, arcsecant or arccosecant, however, we often need to employ some ingenuity, as our next example illustrates.
-
-\medskip
-
-\example{arcstuffoncalc}{Inverse trig functions not on the calculator}{
-
-\begin{enumerate}
-
-\item Use a calculator to approximate the following values to four decimal places.
-
-\begin{multicols}{2}
-
-\begin{enumerate}
-
-\item  $\operatorname{arccot}(2)$ 
-
-\item  $\operatorname{arcsec}(5)$ 
-
-\item \label{arccotneg2} $\operatorname{arccot}(-2)$ 
-
-\item  $\operatorname{arccsc}\left(-\dfrac{3}{2}\right)$
-
-\end{enumerate}
-
-\end{multicols}
-
-\item  Find the domain and range of the following functions. Check your answers using a calculator or computer.
-
-
-
-\begin{enumerate}
-
-\item  $f(x) = \dfrac{\pi}{2} - \arccos\left(\dfrac{x}{5}\right)$
-
-\item  $f(x) = 3\arctan\left(4x \right)$. \vphantom{$\left(-\dfrac{x}{2}\right)$}
-
-\item  \label{arccotangentcalc} $f(x) = \operatorname{arccot}\left(\dfrac{x}{2} \right) + \pi$
-
-\end{enumerate}
-
-
-
-\end{enumerate}\pagebreak
-}
-{
-\begin{enumerate}
-
-\item
-
-\begin{enumerate}
-
-\item  Since $2 > 0$, we can use the property listed in Theorem \ref{arctangentcotangentfunctionprops} to rewrite $\operatorname{arccot}(2)$ as $\operatorname{arccot}(2) = \arctan\left(\frac{1}{2}\right)$.  In `radian' mode, we find $\operatorname{arccot}(2) = \arctan\left(\frac{1}{2}\right) \approx 0.4636$.
-
-\item  Since $5 \geq 1$, we can use the property from either Theorem \ref{arcsecantcosecantfunctionprops1} or Theorem \ref{arcsecantcosecantfunctionprops2} to write $\operatorname{arcsec}(5) = \arccos\left(\frac{1}{5}\right) \approx 1.3694$.
-
-%\newpage
-
-%\begin{tabular}{cc}
-
-%\includegraphics[width=2in]{./IntroTrigGraphics/ArcTrig01.jpg} &
-%\hspace{0.75in} \includegraphics[width=2in]{./IntroTrigGraphics/ArcTrig02.jpg}  \\ 
-
-%\end{tabular} 
-
-\item  Since the argument $-2$ is negative, we cannot directly apply  Theorem \ref{arctangentcotangentfunctionprops} to help us find  $\operatorname{arccot}(-2)$.  Let $t = \operatorname{arccot}(-2)$. Then $t$ is a real number such that $0 < t < \pi$ and $\cot(t) = -2$.  Moreover, since $\cot(t) < 0$, we know $\frac{\pi}{2} < t < \pi$.  Geometrically, this means $t$ corresponds to a Quadrant II angle $\theta = t$ radians.  This allows us to proceed using a `reference angle' approach. Consider $\alpha$, the reference angle for $\theta$, as pictured in Figure \ref{fig:arctrig11}. By definition, $\alpha$ is an acute angle so  $0 < \alpha < \frac{\pi}{2}$, and the Reference Angle Theorem, Theorem \ref{refanglethm}, tells us that $\cot(\alpha) = 2$.  This means  $\alpha = \operatorname{arccot}(2)$ radians.  Since the argument of arccotangent is now a \emph{positive} $2$, we can use  Theorem \ref{arctangentcotangentfunctionprops} to get $\alpha = \operatorname{arccot}(2) =\arctan\left(\frac{1}{2}\right)$ radians. Since $\theta = \pi - \alpha =  \pi - \arctan\left(\frac{1}{2}\right) \approx 2.6779$ radians, we get  $\operatorname{arccot}(-2) \approx 2.6779$.
-
-\mfigure[width=0.95\marginparwidth]{.8}{Evaluating $\operatorname{arccot}(-2)$}{fig:arctrig11}{figures/IntroTrigGraphics/ArcTrig-21}
-
-
-Another way to attack the problem is to use $\arctan\left(-\frac{1}{2}\right)$.  By definition, the real number $t = \arctan\left(-\frac{1}{2}\right)$ satisfies $\tan(t) = -\frac{1}{2}$ with $-\frac{\pi}{2} < t < \frac{\pi}{2}$.  Since $\tan(t)<0$, we know more specifically that $-\frac{\pi}{2} < t < 0$, so $t$ corresponds to an angle $\beta$ in Quadrant IV.  To find the value of $\operatorname{arccot}(-2)$, we once again visualize the angle $\theta = \operatorname{arccot}(-2)$ radians and note that it is a Quadrant II angle with $\tan(\theta) = -\frac{1}{2}$. (See Figure \ref{fig:arctrig12}.)  This means it is exactly $\pi$ units away from $\beta$, and we get $\theta = \pi + \beta = \pi + \arctan\left(-\frac{1}{2}\right) \approx 2.6779$ radians.  Hence, as before, $\operatorname{arccot}(-2) \approx 2.6779$.
-
-\mfigure[width=0.95\marginparwidth]{.6}{Evaluating $\operatorname{arccot}(-2)$}{fig:arctrig12}{figures/IntroTrigGraphics/ArcTrig-22}
-
-\drawexampleline
-
-\item If the range of arccosecant is taken to be $\left[-\frac{\pi}{2}, 0\right) \cup \left(0, \frac{\pi}{2}\right]$, we can use Theorem \ref{arcsecantcosecantfunctionprops1} to get $\operatorname{arccsc}\left(-\frac{3}{2}\right) = \arcsin\left(-\frac{2}{3}\right) \approx -0.7297$.  If, on the other hand, the range of arccosecant is taken to be $\left(0, \frac{\pi}{2}\right] \cup \left(\pi, \frac{3\pi}{2}\right]$, then we proceed as in the previous problem by  letting $t = \operatorname{arccsc}\left(-\frac{3}{2}\right)$.  Then $t$ is a real number with $\csc(t) = -\frac{3}{2}$.  Since $\csc(t) < 0$, we have that $\pi < \theta \leq \frac{3\pi}{2}$, so $t$ corresponds to a Quadrant III angle, $\theta$, as pictured in Figure \ref{fig:arctrig13}.  As above, we let $\alpha$ be the reference angle for $\theta$.  Then $0 < \alpha < \frac{\pi}{2}$ and $\csc(\alpha) =\frac{3}{2}$, which means $\alpha = \operatorname{arccsc}\left(\frac{3}{2}\right)$ radians.  Since the argument of arccosecant is now positive, we may use Theorem \ref{arcsecantcosecantfunctionprops2}  to get $\alpha = \operatorname{arccsc}\left(\frac{3}{2}\right) = \arcsin\left(\frac{2}{3}\right)$ radians.  Since $\theta = \pi + \alpha = \pi +  \arcsin\left(\frac{2}{3}\right) \approx 3.8713$ radians,  $\operatorname{arccsc}\left(-\frac{3}{2}\right) \approx 3.8713$.
-
-\mfigure[width=0.95\marginparwidth]{.4}{Evaluating $\operatorname{arccsc}\left(-\frac{3}{2}\right)$}{fig:arctrig13}{figures/IntroTrigGraphics/ArcTrig-23}
-
-\end{enumerate}
-
-%\newpage
-
-\item \begin{enumerate}
-
-\item  Since the domain of $F(x) = \arccos(x)$ is $-1 \leq x \leq 1$, we can find the domain of $f(x) = \frac{\pi}{2} - \arccos\left(\frac{x}{5}\right)$ by setting the argument of the arccosine, in this case $\frac{x}{5}$, between $-1$ and $1$. Solving  $-1 \leq \frac{x}{5} \leq 1$ gives $-5 \leq x \leq 5$, so the domain is $[-5,5]$.  To determine the range of $f$, we take a cue from Section \ref{Transformations}. Three `key' points on the graph of $F(x) = \arccos(x)$ are  $(-1, \pi)$, $\left(0, \frac{\pi}{2}\right)$ and $(1,0)$ . Following the procedure outlined in Theorem \ref{transformationsthm}, we track these points to $\left(-5, -\frac{\pi}{2}\right)$, $(0, 0)$ and $\left(5, \frac{\pi}{2}\right)$. Plotting these values tells us that the range of $f$ is $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$. (It also confirms our domain!) The graph in Figure \ref{fig:arctrig14} confirms our results.
-
-\mfigure[width=0.95\marginparwidth]{.2}{$y=f(x)=\dfrac{\pi}{2}-\arccos\left(\dfrac{x}{5}\right)$}{fig:arctrig14}{figures/IntroTrigGraphics/ArcTrig1}
-
-\item  To find the domain and range of $f(x) = 3\arctan\left(4x \right)$, we note that since the domain of $F(x) = \arctan(x)$ is all real numbers, the only restrictions, if any, on the domain of  $f(x) = 3\arctan\left(4x \right)$ come from the argument of the arctangent, in this case, $4x$.  Since $4x$ is defined for all real numbers, we have established that the domain of $f$ is all real numbers.  To determine the range of $f$, we can, once again, appeal to Theorem \ref{transformationsthm}.  Choosing our `key' point to be $(0,0)$ and tracking the horizontal asymptotes $y = -\frac{\pi}{2}$ and $y= \frac{\pi}{2}$, we find that the graph of $y = f(x) = 3\arctan\left(4x \right)$ differs from the graph of $y = F(x) = \arctan(x)$ by a horizontal compression by a factor of $4$ and a vertical stretch by a factor of $3$.  It is the latter which affects the range, producing a range of $\left(-\frac{3\pi}{2}, \frac{3\pi}{2} \right)$.  We confirm our findings using GeoGebra in Figure \ref{fig:arctrig15}.
-
-\mfigure[width=0.95\marginparwidth]{.6}{$y=f(x)=3\arctan(4x)$}{fig:arctrig15}{figures/IntroTrigGraphics/ArcTrig2}
-
-\item  To find the domain of $g(x) = \operatorname{arccot}\left(\frac{x}{2}\right) + \pi$, we proceed as above.  Since the domain of $G(x) = \operatorname{arccot}(x)$ is $(-\infty, \infty)$, and $\frac{x}{2}$ is defined for all $x$, we get that the domain of $g$ is $(-\infty, \infty)$ as well.  As for the range, we note that the range of $G(x)  = \operatorname{arccot}(x)$, like that of $F(x) = \arctan(x)$, is limited by a pair of horizontal asymptotes, in this case $y = 0$ and $y = \pi$.  Following  Theorem \ref{transformationsthm}, we graph $y =  g(x) = \operatorname{arccot}\left(\frac{x}{2}\right) + \pi$ starting with $y = G(x) = \operatorname{arccot}(x)$ and first performing a horizontal expansion by a factor of $2$ and following that with a vertical shift upwards by $\pi$.  This latter transformation is the one which affects the range, making it now $(\pi, 2\pi)$.  To check this graphically, we encounter a bit of a problem, since on many calculators, there is no shortcut button corresponding to the arccotangent function. Taking a cue from number \ref{arccotneg2}, we attempt to rewrite $g(x) = \operatorname{arccot}\left(\frac{x}{2}\right) + \pi$ in terms of the arctangent function. Using Theorem \ref{arctangentcotangentfunctionprops}, we have that $\operatorname{arccot}\left(\frac{x}{2}\right) = \arctan\left(\frac{2}{x}\right)$ when $\frac{x}{2} > 0$, or, in this case, when $x > 0$.  Hence, for $x > 0$, we have $g(x) = \arctan\left(\frac{2}{x}\right) + \pi$.  When $\frac{x}{2} < 0$, we can use the same argument in number \ref{arccotneg2} that gave us $\operatorname{arccot}(-2) = \pi + \arctan\left(-\frac{1}{2}\right)$ to give us $\operatorname{arccot}\left(\frac{x}{2}\right) = \pi + \arctan\left(\frac{2}{x}\right)$.  Hence, for $x < 0$, $g(x) = \pi + \arctan\left(\frac{2}{x}\right) + \pi = \arctan\left(\frac{2}{x}\right) + 2\pi$.  What about $x=0$?  We know $g(0) = \operatorname{arccot}(0) + \pi = \pi$, and neither of the formulas for $g$ involving arctangent will produce this result. Hence, in order to graph $y = g(x)$ on our computer or calculator, we need to write it as a piecewise defined function:
-
-\[ g(x) = \operatorname{arccot}\left(\frac{x}{2}\right) + \pi = \left\{ \begin{array}{rr} \arctan\left(\frac{2}{x}\right) + 2\pi, & \text{if $x<0$} \\ [5pt] \pi, & \text{if $x=0$} \\ [5pt] \arctan\left(\frac{2}{x}\right) + \pi, & \text{if $x>0$} \end{array}\right. \]
-
-The result is shown in Figure \ref{fig:arctrig16}.
-
-\mfigure[width=0.95\marginparwidth]{.4}{$y=g(x)=\operatorname{arccot}\left(\dfrac{\pi}{2}\right)+\pi$}{fig:arctrig16}{figures/IntroTrigGraphics/ArcTrig3}
-
-\mnote{.2}{Note: as with a graphing calculator, the GeoGebra software does not have an arccotangent function. To input a piecewise-defined function in GeoGebra, we use the syntax \texttt{Function[<function>, <start x value>, <end x value>.]}.}
-
-\smallskip
-
-\end{enumerate}
-
-\end{enumerate}
-}
-
-
-
-\medskip
-
-
-The inverse trigonometric functions are typically found in applications whenever the measure of an angle is required.  One such scenario is presented in the following example. (The authors would like to thank Dan Stitz for this problem and associated graphics.)
-
-\pagebreak
-
-\example{roofpitchex}{Angle of a pitched roof}{  The roof on the house below has a  `$6/12$ pitch'.  This means that when viewed from the side, the roof line has a rise of 6 feet over a run of 12 feet.  Find the angle of inclination from the bottom of the roof to the top of the roof.  Express your answer in decimal degrees, rounded to the nearest hundredth of a degree.
-
-\medskip
-
-\noindent\begin{minipage}{\textwidth}
-\begin{center}
-\begin{tabular}{cc}
-\myincludegraphics[width=0.5\textwidth]{figures/IntroTrigGraphics/ArcTrig05}&
-\myincludegraphics[width=0.4\textwidth]{figures/IntroTrigGraphics/ArcTrig06}\\
-Front View & Side View
-\end{tabular}
-\end{center}
-\end{minipage}
-}
-{
-If we divide the side view of the house down the middle, we find that the roof line forms the hypotenuse of a right triangle with legs of length $6$ feet and $12$ feet.  Using Theorem \ref{circularfunctionstriangle}, we find the angle of inclination, labelled $\theta$ in Figure \ref{fig:arctrigappex}, satisfies $\tan(\theta) = \frac{6}{12} = \frac{1}{2}$.  Since $\theta$ is an acute angle, we can use the arctangent function and we find $\theta = \arctan\left(\frac{1}{2}\right)\, \text{radians} \, \approx 26.56^{\circ}$.
-
-\mfigure[width=0.95\marginparwidth]{.65}{Angle of inclination $\theta$ for Example \ref{roofpitchex}}{fig:arctrigappex}{figures/IntroTrigGraphics/ArcTrig-24}
-}
-
-
-
-\medskip
-
-\subsection{Solving Equations Using the Inverse Trigonometric Functions.}
-
-In Sections \ref{TheUnitCircle} and \ref{CircularFunctions}, we learned how to solve equations like $\sin(\theta) = \frac{1}{2}$ for angles $\theta$ and $\tan(t) = -1$ for real numbers $t$. In each case, we ultimately appealed to the Unit Circle and relied on the fact that the answers corresponded to a set of `common angles' listed on page \pageref{commonanglesunitcircle}.  If, on the other hand, we had been asked to find all angles with $\sin(\theta) = \frac{1}{3}$ or solve $\tan(t) = -2$ for real numbers $t$, we would have been hard-pressed to do so.  With the introduction of the inverse trigonometric functions, however, we are now in a position to solve these equations. A good parallel to keep in mind is how the square root function can be used to solve certain quadratic equations.  The equation $x^2 = 4$ is a lot like  $\sin(\theta) = \frac{1}{2}$ in that it has friendly, `common value' answers  $x = \pm 2$.  The equation $x^2 = 7$, on the other hand, is a lot like $\sin(\theta) = \frac{1}{3}$.  We know there are answers (how do we know this again?), but we can't express them using `friendly' numbers. (This is all, of course, a matter of opinion.  For the record, the authors find $\pm \sqrt{7}$ just as `nice' as $\pm 2$.)  To solve $x^2 = 7$, we make use of the square root function and write $x = \pm \sqrt{7}$. We can certainly \textit{approximate} these answers using a calculator, but as far as exact answers go, we leave them as $x = \pm \sqrt{7}$.  In the same way, we will use the arcsine function to solve $\sin(\theta) = \frac{1}{3}$, as seen in the following example.
-
-\pagebreak
-
-\example{basicinverseeqns}{Solving trigonometric equations}{  Solve the following equations.
-
-\begin{enumerate}
-
-\item  \label{basicinverseeqnssine} Find all angles $\theta$ for which $\sin(\theta) = \frac{1}{3}$.
-
-\item \label{basicinverseeqnstangent} Find all real numbers $t$ for which $\tan(t) = -2$
-
-\item  \label{basicinverseeqnssecant} Solve $\, \sec(x) = -\frac{5}{3} \,$ for $x$.
-
-\end{enumerate}
-}
-{
-\begin{enumerate}
-
-\item  If $\sin(\theta) = \frac{1}{3}$, then the terminal side of $\theta$, when plotted in standard position, intersects the Unit Circle at $y = \frac{1}{3}$.  Geometrically, we see that this happens at two places:  in Quadrant I and Quadrant II. If we let $\alpha$ denote the acute solution to the equation, then all the solutions to this equation in Quadrant I  are coterminal with $\alpha$, and $\alpha$ serves as the reference angle for all of the solutions to this equation in Quadrant II.
-
-\mtable{.7}{Solving $\sin(\theta)=\frac{1}{3}$}{fig:trigeqn1}{
-\begin{tabular}{c}
-\myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/ArcTrig-25}\\
-\\
-\myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/ArcTrig-26}
-\end{tabular}}
-
-Since $\frac{1}{3}$ isn't the sine of any of the `common angles' discussed earlier, we use the arcsine functions to express our answers.  The real number $t = \arcsin\left(\frac{1}{3}\right)$ is defined so it satisfies $0 < t < \frac{\pi}{2}$ with $\sin(t) = \frac{1}{3}$.  Hence, $\alpha = \arcsin\left(\frac{1}{3}\right)$ radians. Since the solutions in Quadrant I are all coterminal with $\alpha$, we get part of our solution to be $\theta = \alpha + 2\pi k  = \arcsin\left(\frac{1}{3}\right) + 2\pi k$ for integers $k$.  Turning our attention to Quadrant II, we get one solution to be $\pi - \alpha$.  Hence, the Quadrant II solutions are  $\theta = \pi - \alpha + 2\pi k = \pi - \arcsin\left(\frac{1}{3}\right) + 2\pi k$, for integers $k$.
-
-
-\item We may visualize the solutions to $\tan(t)=-2$ as angles $\theta$  with $\tan(\theta) = -2$.  Since tangent is negative only in Quadrants II and IV, we focus our efforts there. 
-
-
-
-\mtable{.3}{Solving $\tan(t)=-2$}{fig:trigeqn2}{
-\begin{tabular}{c}
-\myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/ArcTrig-27}\\
-\\
-\myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/ArcTrig-28}
-\end{tabular}}
-
-Since $-2$ isn't the tangent of any of the `common angles', we need to use the arctangent function to express our answers.  The real number $t = \arctan(-2)$ satisfies $\tan(t)=-2$  and $-\frac{\pi}{2} < t < 0$.   If we let $\beta = \arctan(-2)$ radians, we see that all of the Quadrant IV solutions to  $\tan(\theta) = -2$  are coterminal with $\beta$. Moreover, the solutions from Quadrant II differ by exactly $\pi$ units from the solutions in Quadrant IV, so all the solutions to $\tan(\theta) = -2$ are of the form $\theta = \beta + \pi k = \arctan(-2) + \pi k$ for some integer $k$.  Switching back to the variable $t$,  we record our final answer to $\tan(t) = -2$ as $t = \arctan(-2) + \pi k$ for integers $k$.
-
-
-\item  The last equation we are asked to solve, $\sec(x) = -\frac{5}{3}$, poses two immediate problems.  First, we are not told whether or not $x$ represents an angle or a real number.  We assume the latter, but note that we will use angles and the Unit Circle to solve the equation regardless.  Second, as we have mentioned, there is no universally accepted range of the arcsecant function.  For that reason, we adopt the advice given in Section \ref{CircularFunctions} and convert this to the cosine problem $\cos(x) = -\frac{3}{5}$.  Adopting an angle approach, we consider the equation $\cos(\theta) = -\frac{3}{5}$ and note that our solutions lie in Quadrants II and III.  Since $-\frac{3}{5}$ isn't  the cosine of any of the `common angles', we'll need to express our solutions in terms of the arccosine function.  The real number $t = \arccos\left(-\frac{3}{5}\right)$ is defined so that $\frac{\pi}{2} < t < \pi$ with $\cos(t) = -\frac{3}{5}$.  If we let $\beta = \arccos\left(-\frac{3}{5}\right)$ radians, we see that $\beta$ is a Quadrant II angle.  To obtain a Quadrant III angle solution, we may simply use $-\beta = -\arccos\left(-\frac{3}{5}\right)$.  Since all angle solutions are coterminal with $\beta$ or $-\beta$, we get our solutions to $\cos(\theta) = -\frac{3}{5}$ to be $\theta = \beta + 2\pi k = \arccos\left(-\frac{3}{5}\right) + 2\pi k$ or $\theta = -\beta + 2\pi k = -\arccos\left(-\frac{3}{5}\right) + 2\pi k$ for integers $k$.  Switching back to the variable $x$,  we record our final answer to $\sec(x) = -\frac{5}{3}$ as $x = \arccos\left(-\frac{3}{5}\right) + 2\pi k$ or $x = -\arccos\left(-\frac{3}{5}\right) + 2\pi k$ for integers $k$.
-
-
-\medskip
-
-\mtable{.7}{Solving $\sec(x)=-\frac{5}{3}$}{fig:trigeqn3}{
-\begin{tabular}{c}
-\myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/ArcTrig-29}\\
-\\
-\myincludegraphics[width=0.95\marginparwidth]{figures/IntroTrigGraphics/ArcTrig-30}
-\end{tabular}}
-
-\end{enumerate}
-}
-
-\medskip
-
- The reader is encouraged to check the answers found in Example \ref{basicinverseeqns} - both analytically and with the calculator (see Section \ref{sectionarcstuffoncalc}).  With practice, the inverse trigonometric functions will become as familiar to you as the square root function.  Speaking of practice \dots
 
 
 \printexercises{exercises_pre/07_06_exercises}
